@@ -1,6 +1,6 @@
 echo "Make sure your add the following to your .bashrc!"
 echo "..."
-echo "PATH+=":$HOME/bin"
+echo "PATH+=':$HOME/bin'"
 echo ""
 cd `mktemp -d`
 virtualenv .
