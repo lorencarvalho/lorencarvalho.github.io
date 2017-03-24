@@ -8,7 +8,7 @@ echo PATH+=":$HOME/bin"
 echo ""
 
 cd `mktemp -d`
-virtualenv .
+virtualenv . -q
 source bin/activate
 pip install pex -q
 mkdir -p ~/bin
