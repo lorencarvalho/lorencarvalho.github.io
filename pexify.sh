@@ -1,6 +1,11 @@
+echo ""
+echo ""
+echo ~ installing pex ~
+echo ""
 echo Make sure your add the following to your .bashrc!
-echo ...
+echo ""
 echo PATH+=":$HOME/bin"
+echo ""
 
 cd `mktemp -d`
 virtualenv .
