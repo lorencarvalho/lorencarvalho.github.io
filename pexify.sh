@@ -10,7 +10,7 @@ echo ""
 cd `mktemp -d`
 virtualenv .
 source bin/activate
-pip install pex
+pip install pex -q
 mkdir -p ~/bin
 pex pex -c pex -o ~/bin/pex
 deactivate
