@@ -15,3 +15,7 @@ mkdir -p ~/bin
 pex pex -c pex -o ~/bin/pex
 deactivate
 cd ~
+
+echo ""
+echo done! check it out: ~/bin/pex
+echo ""
