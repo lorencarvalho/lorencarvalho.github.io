@@ -1,7 +1,7 @@
-echo "Make sure your add the following to your .bashrc!"
-echo "..."
-echo "PATH+=':$HOME/bin'"
-echo ""
+echo Make sure your add the following to your .bashrc!
+echo ...
+echo PATH+=":$HOME/bin"
+
 cd `mktemp -d`
 virtualenv .
 source bin/activate
