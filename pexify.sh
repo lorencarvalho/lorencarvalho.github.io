@@ -1,6 +1,6 @@
 echo ""
 echo ""
-echo ~ installing pex ~
+echo \~ installing pex \~
 echo ""
 echo Make sure your add the following to your .bashrc!
 echo ""
