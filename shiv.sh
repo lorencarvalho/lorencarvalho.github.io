@@ -11,9 +11,9 @@ py=`which python3`
 cd `mktemp -d`
 $py -m venv .
 source bin/activate
-pip install shiv -q
+$py -m pip install shiv -q --disable-pip-version-check
 mkdir -p ~/bin
-shiv shiv -c shiv -o ~/bin/shiv -p "$py -sE" -q
+shiv shiv -c shiv -o ~/bin/shiv -p "/usr/bin/env python3" -q -E
 echo installed using $py
 deactivate
 cd ~
